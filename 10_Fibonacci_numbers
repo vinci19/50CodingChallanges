@@ -1,0 +1,12 @@
+// Print the first 10 Fibonacci numbers without recursion
+
+// The first two numbers are 0 and 1
+const fibonacci = [0, 1];
+
+// The loop starts at 2 beacuse the arrays 0 and 1st value are given
+for (let i = 2; i <= 10; i++){
+  fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
+  // The previous two fibonacci numbers are added together
+}
+
+console.log(fibonacci)
