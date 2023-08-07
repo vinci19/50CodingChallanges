@@ -1,0 +1,7 @@
+function FarenheitToCelsius(f){
+ let celsius = 5/9 * (f - 32);
+ console.log(celsius);
+}
+
+FarenheitToCelsius(32)
+FarenheitToCelsius(72)
