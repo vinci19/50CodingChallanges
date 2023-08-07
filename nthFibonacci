@@ -1,0 +1,11 @@
+//Create a function that will find the nth Fibonacci number using recursion
+
+function numberFibonacci(g){
+let fibonacci = [0, 1];
+for (let i = 2; i < g; i++){
+  fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
+}
+return fibonacci[g-1]
+}
+
+console.log(numberFibonacci(8));
