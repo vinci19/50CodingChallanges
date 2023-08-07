@@ -1,0 +1,8 @@
+function CelsiusToFarenheit(c){
+ let farenheit = c * (9/5) +32;
+ console.log(farenheit);
+}
+
+ CelsiusToFarenheit (32)
+ CelsiusToFarenheit (50)
+ CelsiusToFarenheit (580)
