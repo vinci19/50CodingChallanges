@@ -1,0 +1,9 @@
+// Calculate the average of the numbers in an array of numbers
+
+const numbers = [0, 1, 2, 3, 4 ]
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i]
+}
+let avg = sum/numbers.length;
+console.log(avg);
