@@ -1,0 +1,9 @@
+for (let g = 0; g <= 10; g++){
+  console.log("This is the time table of " + g)
+  console.log(" ")
+for (let i = 0; i <= 10; i++) {
+  let timesTable = g + " * " + i + " = " + g * i;
+  console.log(timesTable);
+}
+  console.log(" ")
+}
