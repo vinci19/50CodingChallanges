@@ -1,0 +1,7 @@
+// Reverse String
+
+const string = "Monkey"
+
+const reverseString = string.split("").reverse().join("")
+
+console.log(reverseString);
