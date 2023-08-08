@@ -1,0 +1,14 @@
+function boolean(a) {
+  if ((a / a === 1) && (a / 1 === 1)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+for (let a = 0, count = 0; count < 100; a++) {
+  if (boolean(a)) {
+    console.log(a);
+    count++;
+  }
+}
