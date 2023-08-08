@@ -1,0 +1,9 @@
+// Create a function that will return a Boolean specifying if a number is prime
+
+function boolean (a) {
+  if ((a / a === 1) && (a / 1 === 1)) {
+    return true;
+  } else {
+    return false;
+  }
+}
