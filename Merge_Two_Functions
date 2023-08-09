@@ -1,0 +1,14 @@
+// Create a function that will merge two arrays and return the result as a new
+array
+
+function merge(a, b) {
+  for (let i = 0; i < b.length; i++) {
+    a.push(b[i]);
+  }
+  return a;
+}
+
+let a = [0,1,2,3,4,5];
+let b = [0,3,5,7,8,9];
+
+console.log(merge(a,b));
