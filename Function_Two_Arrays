@@ -1,0 +1,18 @@
+// Create a function that will receive two arrays and will return an array with elements that are in the first array but not in the second
+
+function twoArray (arr1, arr2){
+  const result = [];
+  for(const num of arr1){
+    if(arr1.includes(num) && !result.includes(num)){
+      result.push(num);
+    }
+  }
+  return result;
+}
+
+const arr1 = [0,5,6,54,45,56,48,4]
+const arr2 = [0,5,6,7,8,9,10,1,12,4,48,7,8,9,1]
+
+const arrays = twoArray(arr1, arr2);
+
+console.log(arrays)
