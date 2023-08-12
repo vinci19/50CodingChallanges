@@ -1,0 +1,11 @@
+// Create a function that will return the number of words in a text
+
+function wordCount(a){
+  const wordArray = a.trim().split(/\s+/);
+  const wordLength = wordArray.length;
+  return wordLength;
+}
+
+const a = "sfafgafdsfgasd hdfhd dhd fh "
+
+console.log(wordCount(a));
