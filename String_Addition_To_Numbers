@@ -1,0 +1,15 @@
+// Create a function that will add two positive numbers of indefinite size. The numbers are received as strings and the result should be also provided as string.
+
+function positiveAddition(number1, number2){
+  let numberOne = Number(number1);
+  let numberTwo = Number(number2);
+
+  let sumOfTwoNumbers = numberOne + numberTwo;
+  let stringOfTwoNumbers = sumOfTwoNumbers.toString()
+  return stringOfTwoNumbers;
+}
+
+const testData = positiveAddition(5,6);
+
+console.log(testData);
+console.log(typeof testData);
