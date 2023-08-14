@@ -1,0 +1,23 @@
+// Create a function that will capitalize the first letter of each word in a text
+
+function capitalizeWords(sentence) {
+  // Removes white space before and after and then splits words in sentence
+  const wordArray = sentence.trim().split(/\s+/);
+  const capitalizedArray = [];
+
+// Loops through each word
+  for (let i = 0; i < wordArray.length; i++) {
+// Capitalizes first letter and slices lower case string component from the second letter
+    const capitalizedWord = wordArray[i].charAt(0).toUpperCase() + wordArray[i].slice(1);
+    capitalizedArray.push(capitalizedWord);
+  }
+
+// Joins all the wrods together
+  const capitalizedSentence = capitalizedArray.join(' ');
+  return capitalizedSentence;
+}
+
+const inputSentence = "sfafgafdsfgasd hdfhd dhd fh ";
+const capitalizedSentence = capitalizeWords(inputSentence);
+
+console.log(capitalizedSentence);
