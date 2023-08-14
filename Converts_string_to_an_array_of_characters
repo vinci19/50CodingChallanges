@@ -1,0 +1,11 @@
+// Create a function that converts a string to an array of characters
+
+function capitalizeWords(sentence) {
+  const words = sentence.trim().split(/\s+/);
+  return words;
+}
+
+const inputSentence = "sfafgafdsfgasd hdfhd dhd fh ";
+const arrayConverter = capitalizeWords(inputSentence);
+
+console.log(arrayConverter);
